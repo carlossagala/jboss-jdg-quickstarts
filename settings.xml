@@ -42,6 +42,18 @@
     -->
   </proxies>
   
+   <mirrors>
+	<mirror>
+
+      <id>Anses Maven Repo</id>
+
+      <mirrorOf>*</mirrorOf>
+
+      <url>http://ansesalm.anses.gov.ar/nexus/content/groups/anses-maven/</url>
+
+    </mirror>
+	</mirrors> 
+    
   <profiles>
 
     <!-- Configure the JBoss GA Maven repository -->
